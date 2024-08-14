@@ -1,4 +1,4 @@
-import pyhtml as page
+import py4html as page
 
 page.start()
 page.heading(1,"sreehari")
