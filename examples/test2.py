@@ -1,0 +1,20 @@
+from py4html import *
+start()
+heading(1,"sreehari")
+heading(2,"is a legend")
+heading(3,"he will change the world")
+heading(4, "sreehari is great")
+heading(5, 'sreehari is the best')
+heading(6,"Nothing is impossible for sreehari")
+paragraph("""I think sreehari is the greatest engineer of all time.
+there is nothing that he cannot acheive""")
+heading(1,"He is a very emotional Person")
+Form.label("fname","First name:")
+Form.input("text","fname","fname","John")
+Form.label("lname","Last name:")
+Form.input("text","lname","lanme","Doe")
+Form.input(type="submit",value="Submit")
+Form.close()
+paragraph("""If you click the "Submit" button, the form-data will be sent to a page 
+               called "/action_page.php".""")
+end()
